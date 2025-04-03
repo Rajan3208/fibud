@@ -14,9 +14,15 @@ flutter build web
 
 # Create a new branch 'gh-pages' in my repository
 cd build/web
+
 git init
+
 git add .
+
 git commit -m "Web deployment"
+
 git branch -M main
+
 git remote add origin https://github.com/Rajan3208/fibud
+
 git push -u origin main:gh-pages -f
